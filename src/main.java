@@ -20,13 +20,14 @@ public class main {
         User.add(u2);
 
 
-        ArrayList<Orders>Orderr=new ArrayList<Orders>();
+        ArrayList<Orders>Order=new ArrayList<Orders>();
 
 
-        Orders o1=new Orders(1,2,3000,"Cloth");
-        Orders o2=new Orders(2,1,5000,"Cloth");
-        Orderr.add(o1);
-        Orderr.add(o2);
+        Orders o1=new Orders(1,2,3000,"Cloth",User);
+        Orders o2=new Orders(2,1,5000,"Cloth",User);
+        Order.add(o1);
+        Order.add(o2);
+
 
         I1.Items();
 
